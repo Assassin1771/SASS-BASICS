@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+// VARIABLE
+$color: blue;
+h1 {
+    color: $color;
+    //OPERATOR
+    font-size: 10px+10px;
+}
+
+//NESTING
+.class1 {
+    h2 {
+        color: red;
+    }
+    h3 {
+        color: blue;
+    }
+}
+
+//MIXIN N INCLUDE
+@mixin mix1 {
+    color: red;
+}
+
+.class2 {
+    @include mix1;
+}
+
+.class3 {
+    @include mix1;
+}

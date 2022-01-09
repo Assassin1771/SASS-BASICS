@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1 {
+  color: blue;
+  font-size: 20px;
+}
+
+.class1 h2 {
+  color: red;
+}
+
+.class1 h3 {
+  color: blue;
+}
+
+.class2 {
+  color: red;
+}
+
+.class3 {
+  color: red;
+}
+/*# sourceMappingURL=style.css.map */
